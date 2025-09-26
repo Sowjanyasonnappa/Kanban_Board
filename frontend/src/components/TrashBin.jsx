@@ -28,8 +28,6 @@ export default function TrashBin() {
       <h2 className="text-xl font-bold text-black text-center mb-4 drop-shadow animate-[glow_3s_ease-in-out_infinite]">
         TrashBin
       </h2>
-
-      {/* Centered icon + text */}
       <div className="flex-1 flex flex-col items-center justify-center gap-3">
         <FaTrash className="text-black-600 text-6xl drop-shadow-lg" />
         <p className="text-center text-black font-semibold">
