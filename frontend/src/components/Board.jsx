@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react'
 import { useBoard, BoardContext } from '../Boardcontext'
 import Column from './Column';
 import TrashBin from './TrashBin';
+import BackButton from './BackButton';
 
 
 
@@ -45,7 +46,7 @@ export default function Board() {
      </div>
      
       </div>
-       
+       <BackButton />
     </div>
   )
 }
